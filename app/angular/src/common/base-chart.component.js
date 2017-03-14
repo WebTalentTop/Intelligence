@@ -14,7 +14,7 @@ var common_1 = require("@angular/common");
 var Observable_1 = require("rxjs/Observable");
 require("rxjs/add/observable/fromEvent");
 require("rxjs/add/operator/debounceTime");
-var utils_1 = require("../utils");
+var index_js_1 = require("../utils/index.js");
 var BaseChartComponent = (function () {
     function BaseChartComponent(chartElement, zone, cd, location) {
         this.chartElement = chartElement;
@@ -27,7 +27,7 @@ var BaseChartComponent = (function () {
     BaseChartComponent.prototype.ngAfterViewInit = function () {
         this.bindWindowResizeEvent();
         // listen for visibility of the element for hidden by default scenario
-        this.visibilityObserver = new utils_1.VisibilityObserver(this.chartElement, this.zone);
+        this.visibilityObserver = new index_js_1.VisibilityObserver(this.chartElement, this.zone);
         this.visibilityObserver.visible.subscribe(this.update.bind(this));
     };
     BaseChartComponent.prototype.ngOnDestroy = function () {

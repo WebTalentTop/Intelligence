@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { APP_BASE_HREF, Location } from '@angular/common';
 import {CovalentCoreModule} from '@covalent/core';
 import { NgxChartsDemoComponent } from './ngx.component';
-
+import {BarChartModule} from '../src/bar-chart/bar-chart.module';
 @NgModule({
   imports: [BrowserModule, FormsModule, CovalentCoreModule],
   declarations: [NgxChartsDemoComponent],

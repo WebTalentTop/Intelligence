@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var common_1 = require("@angular/common");
 var d3_1 = require("../../d3");
-var utils_1 = require("../../utils");
+var index_js_1 = require("../../utils/index.js");
 var Timeline = (function () {
     function Timeline(element, zone, cd, location) {
         this.zone = zone;
@@ -46,7 +46,7 @@ var Timeline = (function () {
             var pageUrl = _this.location instanceof common_1.PathLocationStrategy
                 ? _this.location.path()
                 : '';
-            _this.filterId = 'filter' + utils_1.id().toString();
+            _this.filterId = 'filter' + index_js_1.id().toString();
             _this.filter = "url(" + pageUrl + "#" + _this.filterId + ")";
             _this.cd.markForCheck();
         });

@@ -7,7 +7,7 @@ import { LocationStrategy } from '@angular/common';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/fromEvent';
 import 'rxjs/add/operator/debounceTime';
-import { VisibilityObserver } from '../utils';
+import { VisibilityObserver } from '../utils/index.js';
 
 @Component({
   selector: 'base-chart',

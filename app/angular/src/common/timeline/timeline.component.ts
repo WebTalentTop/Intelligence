@@ -5,7 +5,7 @@ import {
 } from '@angular/core';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 import d3 from '../../d3';
-import { id } from '../../utils';
+import { id } from '../../utils/index.js';
 
 @Component({
   selector: 'g[ngx-charts-timeline]',
