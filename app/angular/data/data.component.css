@@ -1,0 +1,69 @@
+.data-card {
+  padding:25px;
+  margin:20px;
+  display:inline-flex;
+  cursor: pointer;
+  cursor: hand;
+}
+.breadcrumb {
+  margin-left: 20px;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  cursor: hand;
+}
+.icon-home {
+  position: absolute;
+  bottom: 1px;
+}
+.icon-magnify {
+  background: url("app/images/black-magnify.png") center no-repeat;
+  height: 24px;
+}
+.filter-container {
+  margin-top:-16px;
+  z-index: 0;
+}
+.filter-left {
+  right:0px;
+  position:absolute;
+  display:inline-flex;
+}
+.view-image {
+  width:100px;
+  height: 100px;
+  background-color: #d3d3d3;
+}
+.view-title {
+  overflow-wrap: break-word;
+  text-align: center;
+  width: 96%;
+  padding: 2%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(255,255,255,0.9);
+}
+.show-big {
+  display: inline;
+}
+.center-container{
+  margin: auto;
+}
+.view-container{
+  background-color: red;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .show-big {
+    display: none;
+  }
+  .data-card {
+    padding:15px;
+    margin:10px;
+  }
+  .breadcrumb {
+    padding-bottom: 25px;
+  }
+}

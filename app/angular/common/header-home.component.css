@@ -1,0 +1,115 @@
+.logo-image {
+  width: 50px;
+  height: 50px;
+  background: url("app/images/sherlock_logo_white.png");
+  background-size: 50px 50px;
+  background-position: center;
+  /*background-color:red;*/
+}
+.logo-text {
+  font-family: avenir-light;
+  font-size: 50px;
+}
+.home-header {
+  /*background-color: #528FA6;*/
+  background-color: #095871;
+  color:white;
+
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 0.005em;
+}
+.show-small {
+  display: none;
+}
+.icon-menu {
+  background: url("app/images/white-menu.png") center no-repeat;
+  height: 24px;
+  width: 28px;
+  padding-top:23px;
+  display: none;
+}
+.new-menu {
+  display: none;
+}
+.icon-account {
+  background: url("app/images/black-account.png") center no-repeat;
+  height: 24px;
+  width: 24px;
+  margin-right:8px;
+}
+.icon-billing {
+  background: url("app/images/black-currency.png") center no-repeat;
+  height: 24px;
+  width: 24px;
+  margin-right:8px;
+}
+.icon-contact {
+  background: url("app/images/black-phone.png") center no-repeat;
+  height: 24px;
+  width: 24px;
+  margin-right:8px;
+}
+.menu {
+  position: absolute;
+  left: 5px;
+  top: 62px;
+  width:200px;
+  box-shadow: 0px 0px 5px #888888;
+  display: none;
+}
+.menu-item {
+  width: 200px;
+  border: none;
+  padding: 14px;
+  text-align: left;
+  background-color: white;
+  font-family: avenir-light;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  cursor:pointer;
+  display:flex;
+}
+.outline-button {
+  margin-left: 15px;
+  border:solid white 2px;
+  border-radius: 0px;
+  color:white;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+}
+
+
+@media screen and (min-width: 600px)  and (max-width: 960px) {
+    .home-header {
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo-text{
+      display: none;
+    }
+    .show-small {
+      display: inline;
+    }
+    .show-big {
+      display: none;
+    }
+    .icon-menu {
+      display: inline;
+    }
+    .new-menu {
+      display: inline;
+    }
+    .logo-image {
+      margin-left:-24px;
+    }
+    .menu {
+      display: inline;
+    }
+}

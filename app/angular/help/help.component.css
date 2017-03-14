@@ -1,0 +1,13 @@
+h4 {
+  margin-top: -15px;
+}
+.details-space {
+  margin-top:10px;
+}
+
+
+@media (max-width: 470px) {
+  .help-select {
+      margin-bottom: 20px;
+  }
+}

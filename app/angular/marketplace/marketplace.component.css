@@ -1,0 +1,69 @@
+
+.marketplace-image {
+  width:150px;
+  height: 150px;
+  background-color: blue;
+}
+.marketplace-title {
+  text-align: center;
+  width: 96%;
+  padding: 2%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  /*background-color: rgba(255,255,255,0.9);*/
+}
+.box {
+  padding:0px;
+  margin:20px;
+  display: inline-flex;
+  cursor: pointer;
+  cursor: hand;
+}
+.expanded {
+  width:100%;
+  /*width:100vh;*/
+  padding:20px;
+  margin-left: -20px;
+  float:left;
+  background-color: #F8F8F8;
+  border-top: solid 1px #D8D8D8;
+  border-bottom: solid 1px #D8D8D8;
+  /*ECECEC*/
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  /*border-bottom: 15px solid #d3d3d3;*/
+  border-bottom: 15px solid #D8D8D8;
+  position: absolute;
+  bottom: -20px;
+  left: 60px;
+}
+
+.left-container {
+  width:225px;
+  float:left;
+  padding: 20px;
+}
+.left-image {
+  border: 1px solid #D8D8D8;
+  height:200px;
+  width:200px;
+  background-color:white;
+}
+
+@media screen and (max-width: 600px) {
+ .marketplace-container{
+   text-align: center;
+ }
+ .box {
+   margin: 10px;
+ }
+ .marketplace-image{
+   width: 130px;
+   height: 130px;
+ }
+}

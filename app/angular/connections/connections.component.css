@@ -1,0 +1,62 @@
+
+.connector-status {
+  position: absolute;
+  top:5px;
+  right:5px;
+  color: #20bf55;
+  font-size: 40px;
+}
+.connector-image {
+  width:100px;
+  height: 100px;
+}
+.connector-title {
+  text-align: center;
+  width: 96%;
+  padding: 2%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  /*background-color: rgba(255,255,255,0.9);*/
+}
+.connector-card {
+  padding: 25px;
+  margin: 20px;
+  display: inline-flex;
+
+}
+.border-green {
+  border: solid #20bf55;
+  border-width: 10px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+md-card {
+  cursor: pointer;
+  cursor: hand;
+}
+
+@media screen and (max-width: 600px) {
+  .connector-image {
+    width: 70px;
+    height: 70px;
+  }
+  .border-green {
+    border-width: 5px;
+  }
+  .connector-status {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .connector-card {
+    margin: 5px;
+    /*display: flex;*/
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

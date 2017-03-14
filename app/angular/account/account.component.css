@@ -1,0 +1,10 @@
+.toggle-container {
+  background-color:white;
+  border:10px solid black;
+  width:200px;
+  text-align:center;
+  line-height:100px;
+  font-size:50px;
+  box-sizing:border-box;
+  overflow:hidden;
+}

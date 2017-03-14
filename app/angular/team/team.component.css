@@ -1,0 +1,137 @@
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+.addDataSource {
+  font-size: 10px;
+}
+.right-align {
+  float: right;
+}
+.historic-contents {
+  width: 200px;
+  margin: 7px;
+  display: flex;
+  padding:18px;
+  box-shadow: 0px 1px 5px #888888;
+  border-radius: 3px;
+}
+.historic-date {
+  align-self: center;
+  padding-left: 1em;
+}
+.avatar-image {
+  background-image: url("app/images/pdf-icon-red.png");
+  background-size: cover;
+  align-self: auto;
+}
+.flex-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+
+}
+.flex-item {
+  align-self: auto;
+  margin: 10px;
+  min-width: 250px;
+}
+.historical-box {
+  width:100%;
+  margin: 4px;
+  padding:10px;
+  height: 30px;
+}
+.icon-file {
+  /*background: url("app/images/fileicon.png");*/
+  /*background-image: url("app/images/pdf-icon-red.png");*/
+  background-image: url("app/images/pdf-icon.png");
+  background-size: contain;
+  height:25px;
+  color: #4d4f53 !important;
+}
+.font-green {
+  color: green;
+}
+.font-red {
+  color: red;
+}
+.add-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.modal-input-font {
+  font-size: 20px !important;
+}
+.plan-image {
+  padding-right: 5px;
+}
+.plan-title {
+  font-weight: bolder;
+  padding-right: 5px;
+}
+.plan-title-right {
+  font-weight: bolder;
+  padding-right: 40px;
+}
+.title-right{
+  padding-right: 40px;
+}
+.admin-border {
+  border-bottom: solid #dfdfdf .5px;
+}
+.add-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 1000;
+  color: #FFFFFF;
+}
+.add-plan-button {
+  color: #FFFFFF;
+  background-color: grey;
+}
+.plan-delete-icon {
+  color: #5F5F5F;
+}
+
+md-tab-group.md-ink-bar {
+  color: #095871 !important;
+  background-color: #095871 !important;
+}
+
+md-ink-bar {
+  color: #095871 !important;
+  background-color: #095871 !important;
+}
+.md-tab-label-container {
+  color: #095871 !important;
+  background-color: #095871 !important;
+}
+@media screen and (max-width: 600px) {
+  .flex-item{
+    /*min-width: 250px;*/
+    /*min-width: 200px;*/
+    width: 200px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .plan-title {
+    font-size: small;
+  }
+  .plan-image {
+    height: 30px;
+    width: 30px;
+  }
+  .plan-title-right {
+    font-size: small;
+  }
+  .mobiledialog {
+    margin-left: 15px;
+  }
+}
+
+/*md-icon {
+  color: #4d4f53 !important;
+}*/

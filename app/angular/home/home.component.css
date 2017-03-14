@@ -1,0 +1,88 @@
+/*real intelligence*/
+.top {
+  height: 600px;
+  position: relative;
+}
+.desktop-image {
+  z-index: 0;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.tablet-image {
+  display: none;
+}
+.outline-button {
+  margin-left: 15px;
+  border:solid white 2px;
+  border-radius: 0px;
+  color:white;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+}
+.main-text {
+  padding-top: 70px;
+  position: absolute;
+  width: 40%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .main-text {
+    padding-top: 0px;
+    margin-top:0px;
+    width:30%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .desktop-image {
+    display: none;
+  }
+  .tablet-image {
+    display: inline;
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+  }
+  .main-text {
+    width:100%;
+
+  }
+}
+
+
+
+/*purpose, vision, progress*/
+.column {
+  width:33%;
+  text-align:center;
+  padding:20px 10px 0px 10px;
+}
+.column-container {
+  display:flex;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width:80%;
+    margin:auto;
+  }
+  .column-container {
+    display:inline;
+  }
+}
+
+/*satisfaction*/
+.orange-button {
+  background-color: #EF9547;
+  color:white;
+}
+.orange-text {
+  color:#EF9547;
+}

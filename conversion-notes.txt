@@ -1,0 +1,133 @@
+THESE ARE NATE'S NOTES
+SHERLOCK 2 PROGRESS NOTES
+HOME
+[X] create
+[X] transfer content
+[ ] fix wistia
+[X] fix svg
+[ ] make responsive
+[ ] polish css
+OTHER STUFF
+[X] fix request bug
+====================================
+HEADER HOME
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+HEADER MAIN
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+HEADER LEGAL
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+FOOTER
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+====================================
+LOGIN SERVICE
+[X] create
+[X] add login function
+[x] add signup function
+LOGIN
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+SIGNUP
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+COMPANY
+[?] create
+[?] transfer content
+[?] make responsive
+[?] polish css
+PRICING
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+====================================
+SIDEBAR
+[X] create
+[X] transfer content
+[X] make responsive
+[ ] animations
+[ ] polish css
+[X] sidebar routing
+[?] transfer to material design (when ready)
+====================================
+DASHBOARD SERVICE
+[X] create
+[X] add data function
+[X] add connections function
+[X] add help function
+[X] add feedback function
+[X] add team function
+[X] add marketplace function
+DATA
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+CONNECTIONS
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+HELP
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+FEEDBACK
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+TEAM
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+MARKETPLACE
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+====================================
+ACCOUNT
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+BILLING
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+====================================
+CONTACT US
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+PRIVACY POLICY
+[X] create
+[X] transfer content
+[ ] make responsive
+[ ] polish css
+TERMS OF SERVICE
+[X] create
+[ ] transfer content
+[ ] make responsive
+[ ] polish css
+====================================

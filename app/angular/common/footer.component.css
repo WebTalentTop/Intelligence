@@ -1,0 +1,107 @@
+.footer {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  /*background-color: #6d7075;*/
+  background-color: #5f5f5f;
+}
+button{
+  text-transform: none;
+}
+p {
+  padding-left: 5px;
+  color: white;
+}
+.link-button {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  border:none;
+  background: transparent;
+  color:white;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+.left-container {
+  width:150px;
+  padding: 0px 10px;
+  height:150px;
+}
+.middle-container {
+  height:150px;
+  margin:auto;
+}
+.middle-container {
+  width:150px;
+  padding: 0px 10px;
+  height:150px;
+}
+.right-container {
+  width:150px;
+  padding: 0px 10px;
+  height:150px;
+}
+.top-container {
+  display:flex;
+}
+.bottom-container {
+  padding: 10px 15px;
+  color:white;
+}
+.icon-container {
+  display: flex;
+}
+.icon-facebook {
+  background: url("app/images/white-facebook.png") center no-repeat;
+  height: 36px;
+  width: 36px;
+}
+.icon-twitter {
+  background: url("app/images/white-twitter.png") center no-repeat;
+  height: 36px;
+  width: 36px;
+}
+.icon-google {
+  background: url("app/images/white-googlePlus.png") center no-repeat;
+  height: 36px;
+  width: 36px;
+}
+.icon-linkedin {
+  background: url("app/images/white-linkedIn.png") center no-repeat;
+  height: 36px;
+  width: 36px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .top-container {
+    display: block;
+  }
+  .left-container {
+    margin: auto;
+    text-align: center;
+    height: 120px;
+    padding-top: 10px;
+  }
+  .middle-container {
+    margin: auto;
+    text-align: center;
+    height: 70px;
+  }
+  .right-container {
+    margin: auto;
+    text-align: center;
+    height: 140px;
+
+  }
+  .link-button {
+    text-align: center;
+  }
+  p {
+    padding-left: 0px;
+  }
+}

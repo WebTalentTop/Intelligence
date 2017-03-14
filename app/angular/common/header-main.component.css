@@ -1,0 +1,88 @@
+
+.main-header {
+  /*background-color: #A2AEBB;*/
+  background-color: #5f5f5f;
+  color:white;
+  box-shadow: 0px 0px 5px #888888;
+  font-family: avenir-light;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.main-username {
+  margin-right: 10px;
+}
+.icon-setting {
+  background: url("app/images/white-settings.png") center no-repeat;
+  height: 24px;
+  width: 57px;
+  padding-top:23px;
+}
+.icon-account {
+  background: url("app/images/black-account.png") center no-repeat;
+  height: 24px;
+  width: 24px;
+  margin-right:8px;
+}
+.icon-billing {
+  background: url("app/images/black-currency.png") center no-repeat;
+  height: 24px;
+  width: 24px;
+  margin-right:8px;
+}
+.icon-logout {
+  background: url("app/images/black-logout.png") center no-repeat;
+  height: 24px;
+  width: 24px;
+  margin-right:8px;
+}
+
+.menu {
+  position: absolute;
+  right: 5px;
+  top: 62px;
+  width:200px;
+  box-shadow: 0px 0px 5px #888888;
+}
+.menu-item {
+  width: 200px;
+  border: none;
+  padding: 14px;
+  text-align: left;
+  background-color: white;
+  font-family: avenir-light;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  cursor:pointer;
+  display:flex;
+}
+.settings-icon {
+  cursor: pointer;
+}
+.hacked-menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .main-username {
+      display: none;
+    }
+    .hacked-menu {
+      padding-top: 12px;
+      display: inline-flex;
+    }
+    .icon-setting {
+      display: none;
+    }
+    .menu {
+      display: none;
+    }
+    .main-header {
+      /*background-color: #528FA6;*/
+      background-color: #095871;
+    }
+}

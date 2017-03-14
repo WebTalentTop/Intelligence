@@ -1,0 +1,4 @@
+var contract = {
+	section1: "<h2>Real Estate Purchase Contract</h2><br><br><p>On this _____ day of ____________, 20____ (&ldquo;Offer Reference Date&rdquo;) (&ldquo;Buyer&rdquo;) offers to purchase from __________________________________________ (&ldquo;Seller&rdquo;) the Property described below and [ ] delivers to the Buyer&rsquo;s Brokerage with this offer, or [ ] agrees to deliver no later than four (4) calendar days after Acceptance (as defined in Section 23), Earnest Money in the amount of $_______________ in the form of___________________________________. After Acceptance of the REPC by Buyer and Seller, and receipt of the Earnest Money by the Brokerage, the Brokerage shall have four (4) calendar days in which to deposit the Earnest Money into the Brokerage Real Estate Trust Account.",
+	section2: ""
+}

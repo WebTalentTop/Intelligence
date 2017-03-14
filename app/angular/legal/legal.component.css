@@ -1,0 +1,70 @@
+h4 {
+  color: #095871;
+}
+.links {
+  position: absolute;
+  right:10px;
+  top: 145px;
+}
+.legal-header {
+  background: url('app/images/business_intelligence_on_imac_on_desk.jpg');
+  background-position:center;
+  background-size:cover;
+  color:white;
+  height:200px;
+}
+.legal-title {
+  margin: 0px;
+  margin-left: 15px;
+}
+
+/*contact page*/
+.contact-container {
+  text-align: center;
+  display: flex;
+  width: 750px;
+  margin: auto;
+}
+.contact-column {
+  width: 80%;
+  max-width: 250px;
+  /*background-color: red;*/
+}
+.contact-column p {
+  margin: 0px;
+}
+.icon-map {
+  background: url("app/images/icon-map.png") center no-repeat;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+.icon-mail {
+  background: url("app/images/icon-mail.png") center no-repeat;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+.icon-phone {
+  background: url("app/images/icon-phone.png") center no-repeat;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .links {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 846px) {
+  .contact-container {
+    /*width: 300px;*/
+    margin: auto;
+    display: inline;
+  }
+  .contact-column {
+    margin: auto;
+  }
+}
